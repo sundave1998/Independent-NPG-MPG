@@ -7,17 +7,13 @@ Here we list our running environment:
 - PyTorch == 1.10.0
 - docplex == 2.18.200
 - numpy == 1.19.2
-- gym == 0.21.0
 - matplotlib == 3.4.3
-- mujoco == 2.2.2
 
 
 ### Tasks
-We implement our proposed ARNPG algorithms in the following environments:
-- Tabular MDP (oracle)
-- Tabular MDP (sample-based)
-- Acrobot-v1 (deep RL)
-- Hopper-v3 (deep RL)
+We implement our proposed algorithms in the following environments:
+- General Markov Potential Games (oracle)
+- Congestion Game (oracle)
 
 
 ### Execution
@@ -26,4 +22,7 @@ To run the experiments, simply execute the following commands, where ''xxx'' cor
 python xxx.py
 ```
 
-
+### Credits
+The code in this repository is adapted from the following works
+- https://arxiv.org/pdf/2106.01969
+- https://arxiv.org/abs/2206.05357
